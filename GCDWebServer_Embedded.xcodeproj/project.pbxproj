@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061FE07445C2E1BE2105384D /* Pods_GCDWebServer_EmbeddedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD796CD96B778163D1B87159 /* Pods_GCDWebServer_EmbeddedTests.framework */; };
+		3B62EBFD543159816EAE291F /* Pods_GCDWebServer_Embedded.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C510E3293F9D8C9C33A03694 /* Pods_GCDWebServer_Embedded.framework */; };
+		453CD3D6674A45CE3A9AC851 /* Pods_GCDWebServer_Embedded_GCDWebServer_EmbeddedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58B0E492620EEBA97789EAD /* Pods_GCDWebServer_Embedded_GCDWebServer_EmbeddedUITests.framework */; };
 		980F8CFD240D047E007AD962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980F8CFC240D047E007AD962 /* AppDelegate.swift */; };
 		980F8CFF240D047E007AD962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980F8CFE240D047E007AD962 /* SceneDelegate.swift */; };
 		980F8D01240D047E007AD962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980F8D00240D047E007AD962 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		980F8D09240D047F007AD962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980F8D07240D047F007AD962 /* LaunchScreen.storyboard */; };
 		980F8D14240D0480007AD962 /* GCDWebServer_EmbeddedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980F8D13240D0480007AD962 /* GCDWebServer_EmbeddedTests.swift */; };
 		980F8D1F240D0480007AD962 /* GCDWebServer_EmbeddedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980F8D1E240D0480007AD962 /* GCDWebServer_EmbeddedUITests.swift */; };
+		98D723C2240D0A03003FDC79 /* Webserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D723C1240D0A03003FDC79 /* Webserver.swift */; };
+		98D723C3240D0E0C003FDC79 /* Webserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D723C1240D0A03003FDC79 /* Webserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16FFE90C532D7D17B8E10893 /* Pods-GCDWebServer_EmbeddedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer_EmbeddedTests.release.xcconfig"; path = "Target Support Files/Pods-GCDWebServer_EmbeddedTests/Pods-GCDWebServer_EmbeddedTests.release.xcconfig"; sourceTree = "<group>"; };
+		23DE2C98054EA7509D3DE6FC /* Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.debug.xcconfig"; path = "Target Support Files/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		607106E3059DEAB5F2429F64 /* Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.release.xcconfig"; path = "Target Support Files/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72E7AE7F7482F16A6DB28BDF /* Pods-GCDWebServer_EmbeddedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer_EmbeddedTests.debug.xcconfig"; path = "Target Support Files/Pods-GCDWebServer_EmbeddedTests/Pods-GCDWebServer_EmbeddedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		962323AA39A75166B04E78C8 /* Pods-GCDWebServer_Embedded.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer_Embedded.release.xcconfig"; path = "Target Support Files/Pods-GCDWebServer_Embedded/Pods-GCDWebServer_Embedded.release.xcconfig"; sourceTree = "<group>"; };
 		980F8CF9240D047E007AD962 /* GCDWebServer_Embedded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDWebServer_Embedded.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		980F8CFC240D047E007AD962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		980F8CFE240D047E007AD962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,11 @@
 		980F8D1A240D0480007AD962 /* GCDWebServer_EmbeddedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDWebServer_EmbeddedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		980F8D1E240D0480007AD962 /* GCDWebServer_EmbeddedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDWebServer_EmbeddedUITests.swift; sourceTree = "<group>"; };
 		980F8D20240D0480007AD962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D723C1240D0A03003FDC79 /* Webserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webserver.swift; sourceTree = "<group>"; };
+		B61EA11740117152224B358A /* Pods-GCDWebServer_Embedded.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServer_Embedded.debug.xcconfig"; path = "Target Support Files/Pods-GCDWebServer_Embedded/Pods-GCDWebServer_Embedded.debug.xcconfig"; sourceTree = "<group>"; };
+		C510E3293F9D8C9C33A03694 /* Pods_GCDWebServer_Embedded.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCDWebServer_Embedded.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58B0E492620EEBA97789EAD /* Pods_GCDWebServer_Embedded_GCDWebServer_EmbeddedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCDWebServer_Embedded_GCDWebServer_EmbeddedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD796CD96B778163D1B87159 /* Pods_GCDWebServer_EmbeddedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCDWebServer_EmbeddedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B62EBFD543159816EAE291F /* Pods_GCDWebServer_Embedded.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061FE07445C2E1BE2105384D /* Pods_GCDWebServer_EmbeddedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +87,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453CD3D6674A45CE3A9AC851 /* Pods_GCDWebServer_Embedded_GCDWebServer_EmbeddedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D84D3A50CC42C2E60A8FD72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C510E3293F9D8C9C33A03694 /* Pods_GCDWebServer_Embedded.framework */,
+				F58B0E492620EEBA97789EAD /* Pods_GCDWebServer_Embedded_GCDWebServer_EmbeddedUITests.framework */,
+				FD796CD96B778163D1B87159 /* Pods_GCDWebServer_EmbeddedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		980F8CF0240D047E007AD962 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				980F8D12240D0480007AD962 /* GCDWebServer_EmbeddedTests */,
 				980F8D1D240D0480007AD962 /* GCDWebServer_EmbeddedUITests */,
 				980F8CFA240D047E007AD962 /* Products */,
+				D3673B5B83B41C94563E9C49 /* Pods */,
+				0D84D3A50CC42C2E60A8FD72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +129,10 @@
 		980F8CFB240D047E007AD962 /* GCDWebServer_Embedded */ = {
 			isa = PBXGroup;
 			children = (
-				980F8CFC240D047E007AD962 /* AppDelegate.swift */,
-				980F8CFE240D047E007AD962 /* SceneDelegate.swift */,
+				98D723C1240D0A03003FDC79 /* Webserver.swift */,
 				980F8D00240D047E007AD962 /* ViewController.swift */,
-				980F8D02240D047E007AD962 /* Main.storyboard */,
-				980F8D05240D047F007AD962 /* Assets.xcassets */,
-				980F8D07240D047F007AD962 /* LaunchScreen.storyboard */,
-				980F8D0A240D047F007AD962 /* Info.plist */,
+				980F8D2D240D04C2007AD962 /* Storyboards */,
+				980F8D2C240D0495007AD962 /* SupportingFiles */,
 			);
 			path = GCDWebServer_Embedded;
 			sourceTree = "<group>";
@@ -128,6 +155,39 @@
 			path = GCDWebServer_EmbeddedUITests;
 			sourceTree = "<group>";
 		};
+		980F8D2C240D0495007AD962 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				980F8CFC240D047E007AD962 /* AppDelegate.swift */,
+				980F8CFE240D047E007AD962 /* SceneDelegate.swift */,
+				980F8D05240D047F007AD962 /* Assets.xcassets */,
+				980F8D0A240D047F007AD962 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		980F8D2D240D04C2007AD962 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				980F8D02240D047E007AD962 /* Main.storyboard */,
+				980F8D07240D047F007AD962 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D3673B5B83B41C94563E9C49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B61EA11740117152224B358A /* Pods-GCDWebServer_Embedded.debug.xcconfig */,
+				962323AA39A75166B04E78C8 /* Pods-GCDWebServer_Embedded.release.xcconfig */,
+				23DE2C98054EA7509D3DE6FC /* Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.debug.xcconfig */,
+				607106E3059DEAB5F2429F64 /* Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.release.xcconfig */,
+				72E7AE7F7482F16A6DB28BDF /* Pods-GCDWebServer_EmbeddedTests.debug.xcconfig */,
+				16FFE90C532D7D17B8E10893 /* Pods-GCDWebServer_EmbeddedTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 980F8D23240D0480007AD962 /* Build configuration list for PBXNativeTarget "GCDWebServer_Embedded" */;
 			buildPhases = (
+				323EB47191B113F1F16730EE /* [CP] Check Pods Manifest.lock */,
 				980F8CF5240D047E007AD962 /* Sources */,
 				980F8CF6240D047E007AD962 /* Frameworks */,
 				980F8CF7240D047E007AD962 /* Resources */,
+				F8CD67512EEC49A1A38252F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 980F8D26240D0480007AD962 /* Build configuration list for PBXNativeTarget "GCDWebServer_EmbeddedTests" */;
 			buildPhases = (
+				B2F09510E84EBDA808BB3FE7 /* [CP] Check Pods Manifest.lock */,
 				980F8D0B240D0480007AD962 /* Sources */,
 				980F8D0C240D0480007AD962 /* Frameworks */,
 				980F8D0D240D0480007AD962 /* Resources */,
@@ -170,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 980F8D29240D0480007AD962 /* Build configuration list for PBXNativeTarget "GCDWebServer_EmbeddedUITests" */;
 			buildPhases = (
+				ED7AA49F770BAC5CD9600ABD /* [CP] Check Pods Manifest.lock */,
 				980F8D16240D0480007AD962 /* Sources */,
 				980F8D17240D0480007AD962 /* Frameworks */,
 				980F8D18240D0480007AD962 /* Resources */,
+				45B803606F3D1007CE8D287D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +319,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		323EB47191B113F1F16730EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCDWebServer_Embedded-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B803606F3D1007CE8D287D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F09510E84EBDA808BB3FE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCDWebServer_EmbeddedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7AA49F770BAC5CD9600ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CD67512EEC49A1A38252F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GCDWebServer_Embedded/Pods-GCDWebServer_Embedded-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GCDWebServer_Embedded/Pods-GCDWebServer_Embedded-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCDWebServer_Embedded/Pods-GCDWebServer_Embedded-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		980F8CF5240D047E007AD962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +430,7 @@
 				980F8D01240D047E007AD962 /* ViewController.swift in Sources */,
 				980F8CFD240D047E007AD962 /* AppDelegate.swift in Sources */,
 				980F8CFF240D047E007AD962 /* SceneDelegate.swift in Sources */,
+				98D723C2240D0A03003FDC79 /* Webserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				980F8D14240D0480007AD962 /* GCDWebServer_EmbeddedTests.swift in Sources */,
+				98D723C3240D0E0C003FDC79 /* Webserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +602,12 @@
 		};
 		980F8D24240D0480007AD962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61EA11740117152224B358A /* Pods-GCDWebServer_Embedded.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
-				INFOPLIST_FILE = GCDWebServer_Embedded/Info.plist;
+				INFOPLIST_FILE = GCDWebServer_Embedded/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +621,12 @@
 		};
 		980F8D25240D0480007AD962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962323AA39A75166B04E78C8 /* Pods-GCDWebServer_Embedded.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y983APTU2S;
-				INFOPLIST_FILE = GCDWebServer_Embedded/Info.plist;
+				INFOPLIST_FILE = GCDWebServer_Embedded/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +640,7 @@
 		};
 		980F8D27240D0480007AD962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E7AE7F7482F16A6DB28BDF /* Pods-GCDWebServer_EmbeddedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +663,7 @@
 		};
 		980F8D28240D0480007AD962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FFE90C532D7D17B8E10893 /* Pods-GCDWebServer_EmbeddedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +686,7 @@
 		};
 		980F8D2A240D0480007AD962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DE2C98054EA7509D3DE6FC /* Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +707,7 @@
 		};
 		980F8D2B240D0480007AD962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607106E3059DEAB5F2429F64 /* Pods-GCDWebServer_Embedded-GCDWebServer_EmbeddedUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
